@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T13:32:51 IST" name="PetStoreSuite" finished-at="2025-06-01T13:33:01 IST" duration-ms="10068">
+    <groups>
+    </groups>
+    <test started-at="2025-06-01T13:32:51 IST" name="PetTest" finished-at="2025-06-01T13:33:01 IST" duration-ms="10068">
+      <class name="api.test.userTestPropertiesFile">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userTestPropertiesFile@3c9754d8]" started-at="2025-06-01T13:32:51 IST" name="setupData" finished-at="2025-06-01T13:32:53 IST" duration-ms="1453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.userTestPropertiesFile@3c9754d8]" started-at="2025-06-01T13:32:53 IST" name="testPostUser" finished-at="2025-06-01T13:32:58 IST" duration-ms="4952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.test.userTestPropertiesFile@3c9754d8]" started-at="2025-06-01T13:32:58 IST" name="testGetUser" finished-at="2025-06-01T13:32:59 IST" depends-on-methods="api.test.userTestPropertiesFile.testPostUser" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.userTestPropertiesFile@3c9754d8]" started-at="2025-06-01T13:32:59 IST" name="testUpdateUser" finished-at="2025-06-01T13:33:01 IST" depends-on-methods="api.test.userTestPropertiesFile.testGetUser" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- api.test.userTestPropertiesFile -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>

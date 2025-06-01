@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-01T14:34:24 IST" name="PetStoreSuite" finished-at="2025-06-01T14:34:34 IST" duration-ms="9318">
+    <groups>
+    </groups>
+    <test started-at="2025-06-01T14:34:24 IST" name="PetTest" finished-at="2025-06-01T14:34:34 IST" duration-ms="9318">
+      <class name="api.test.DataDrivenTest">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenTest@158da8e]" started-at="2025-06-01T14:34:26 IST" name="testPostUser" data-provider="Userdata" finished-at="2025-06-01T14:34:30 IST" duration-ms="3665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Moody]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tm@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[234567]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenTest@158da8e]" started-at="2025-06-01T14:34:30 IST" name="testPostUser" data-provider="Userdata" finished-at="2025-06-01T14:34:31 IST" duration-ms="1348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Catrer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jc@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[534567]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenTest@158da8e]" started-at="2025-06-01T14:34:31 IST" name="testPostUser" data-provider="Userdata" finished-at="2025-06-01T14:34:32 IST" duration-ms="1371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cane]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ss@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[434678]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.DataDrivenTest@158da8e]" started-at="2025-06-01T14:34:32 IST" name="testPostUser" data-provider="Userdata" finished-at="2025-06-01T14:34:34 IST" duration-ms="1374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testUser4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Travis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Head]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tH@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[346789]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+      </class> <!-- api.test.DataDrivenTest -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>

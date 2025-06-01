@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="PetStoreSuite">
+  <listeners>
+    <listener class-name="api.utilities.ExtentReportManager"/>
+  </listeners>
+
+  <test thread-count="5" name="PetTest">
+    <classes>
+      <!-- class name="api.test.userTest"/ -->
+      <class name="api.test.DataDrivenTest"/>
+      <!--class name = "api.test.userTestPropertiesFile"/-->
+    </classes>
+  </test>
+</suite>
